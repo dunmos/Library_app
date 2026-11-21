@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Library App</title>
+  <link rel="stylesheet" href="/Library_app/css/index.css">
+</head>
+<body>
+     <header>
+        <h1>Masomo Bora Library System</h1>
+        <p>Keep track of the books you read.</p>
+    </header>
+
+    <main>
+        <button id="new-book-btn">New Book</button>
+
+        <!-- Form dialog -->
+        <dialog id="book-dialog">
+            <h2>Add a New Book</h2>
+
+            <form id="book-form">
+                <label for="title">Book Title</label>
+                <input type="text" id="title" required placeholder="Enter book title">
+
+                <label for="author">Author</label>
+                <input type="text" id="author" required placeholder="Enter Author">
+
+                <label for="pages">Number of Pages</label>
+                <input type="number" id="pages" min="1" required placeholder="eg 120">
+
+                <label for="read">Have you read it?</label>
+                <select id="read">
+                    <option value="false">Not read yet</option>
+                    <option value="true">Read</option>
+                </select>
+
+                <div class="form-buttons">
+                    <button type="submit">Add Book</button>
+                    <button type="button" id="cancel-btn">Cancel</button>
+                </div>
+            </form>
+        </dialog>
+
+        <section class="library-section">
+            <h2>My Books</h2>
+            <div id="book-list" class="book-list"></div>
+        </section>
+    </main>
+
+    <script src="../Library_app/js/index.js"></script>
+</body>
+</html>
