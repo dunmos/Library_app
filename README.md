@@ -46,5 +46,8 @@ Learning Objectives
 The main goal of this project was to strengthen my understanding of JavaScript object constructors, prototypes, arrays, DOM manipulation, and event handling while building an interactive web application.
 
 
+<img width="1920" height="1080" alt="masomobora2" src="https://github.com/user-attachments/assets/fd6aae3a-252b-471b-8414-5222c73ecb9d" />
+
+
 Author 
 Mosomi Duncan
