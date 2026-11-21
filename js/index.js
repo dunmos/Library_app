@@ -133,7 +133,4 @@ bookForm.addEventListener("submit", (event) => {
     bookDialog.close();
 });
 
-// Add some sample books for testing
-addBookToLibrary("The Hobbit", "J.R.R. Tolkien", 295, true);
-addBookToLibrary("Atomic Habits", "James Clear", 320, false);
-addBookToLibrary("Things Fall Apart", "Chinua Achebe", 209, true);
+
